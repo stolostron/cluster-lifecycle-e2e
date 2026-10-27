@@ -1,0 +1,16 @@
+[
+  {
+    "name": "[sig-acm] ACM ManagedCluster CRD is installed",
+    "entrypoint": "/bin/bash",
+    "args": ["-c", "${INTEROP_SCRIPTS_DIR}/check-acm-managedcluster-crd.sh"],
+    "tags": ["SMOKE", "acm-lifecycle"],
+    "timeout": "5m"
+  },
+  {
+    "name": "[sig-acm] ACM MultiClusterHub is installed",
+    "entrypoint": "/bin/bash",
+    "args": ["-c", "${INTEROP_SCRIPTS_DIR}/check-acm-multiclusterhub.sh"],
+    "tags": ["SMOKE", "acm-lifecycle"],
+    "timeout": "5m"
+  }
+]

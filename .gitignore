@@ -33,3 +33,5 @@ pkg/tests/destroy_bm/destroy_bm.test
 pkg/tests/detach_destroy/detach_destroy.test
 pkg/tests/import_cluster/import_cluster.test
 pkg/tests/metrics/metrics.test
+
+openshift-tests-ext/acm-tests-ext
